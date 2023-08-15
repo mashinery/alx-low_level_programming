@@ -1,8 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 /**
-* main - Prints a random number decides whether it is positive,negative,orzero.
-*
-* Return: Always 0.
+* main - this is the main function
+* Return: always 0.
 */
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -14,6 +20,6 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else
-		printf("%d is zero\n", n);
+	printf("%d is zero\n", n);
 	return (0);
-}
+}	
