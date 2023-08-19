@@ -1,16 +1,21 @@
 #include "main.h"
 
 /**
- * _isupper - uppercase letters
- * @c: char to check
- *
- * Return: 0 or 1
+ * main - function
+ * Return: 0
  */
-int _isupper(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-	return (1);
-	else
-	return (0);
-}
 
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+
+}
